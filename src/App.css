@@ -1,0 +1,93 @@
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  background-color: aliceblue;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+nav{
+  width: 100%;
+  margin: 0;
+  background-color: rgb(255, 237, 211);
+}
+
+.navbar-nav{
+  padding: 10px;
+}
+
+.nav-link{
+  display: inline-block;
+}
+
+.active{
+  color: red;
+}
+
+.box-card{
+  margin: 25px;
+  padding: 20px;
+  width: 30%;
+  box-shadow: gray 1px 1px 8px 1px;
+}
+
+.form-title{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: 20pt;
+  color: black;
+  padding: 12px;
+  text-transform: uppercase;
+}
+
+.auth-form-button{
+  width: 80%;
+  background-color: green;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  font-size: larger;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.auth-form-input{
+  width: 80%;
+  padding: 8px;
+  border-radius: 5px;
+  border: gray 1px solid;
+  font-size: 12pt;
+}
+
+.auth-form-label{
+  padding-top: 8px;
+  text-align: left;
+  width: 80%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12pt;
+  display: block;
+}
+
+.timer-counter{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: 32pt;
+  padding: 16px;
+}
+
+.form-error{
+  color: red;
+  text-align: left;
+  width: 80%;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
